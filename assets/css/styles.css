@@ -1,0 +1,132 @@
+.bg-negro{
+
+    background-color: #000000;
+    color: white;
+}
+
+.text-naranjo{
+
+    color: #f18853;
+    font-weight: bold;
+    font-family: Tahoma;
+}
+
+.text-negro{
+
+    color: #000000;
+    font-family: Tahoma;
+    
+}
+
+.size-img{
+
+    width:200px;
+    height: 160px;
+}
+
+.fundador-image {
+    width: 240px; /* Ajusta el ancho */
+    height: 350px; /* Ajusta la altura*/
+    object-fit: cover; /* Ajusta su proporción */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.fundador-text {
+    text-align: justify;
+    font-weight: lighter;
+    padding:0px 40px 15px 40px;
+    
+}
+.return-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn-harley {
+    background-color: #ff6600;
+    border-color: #ff6600;
+}
+
+main {
+    padding: 20px;
+    }
+
+
+.contacto-table {
+        width: 60%;
+        border-collapse:collapse;
+        margin-bottom: 20px;
+        margin: 0 auto;
+}
+    
+.contacto-table td {
+        padding: 10px;
+}
+        
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+
+td {
+    text-align:justify;
+    vertical-align:middle;
+}
+
+label {
+    display: block;
+}
+
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+
+.btn-primary {
+    background-color: #FF6600;
+    border-color: #FF6600;
+}
+
+.btn-primary:hover {
+    background-color: #E65C00;
+    border-color: #E65C00;
+}
+
+.submit-cell {
+    text-align: center;
+}
+
+.return-button {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Estilos específicos para contacto.html */
+@media screen and (max-width: 600px) {
+    .header-content {
+        flex-direction: column;
+    }
+
+    .icon {
+        margin: 10px 0;
+    }
+}
+
+
+
+
